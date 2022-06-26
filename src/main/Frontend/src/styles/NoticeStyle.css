@@ -1,0 +1,51 @@
+
+@media screen and (min-width:600px) {
+
+    .NoticeContainer {
+        max-width:50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 100%;
+        min-height:100%;
+    }
+    
+    .Notice{
+        max-width: 100%;
+        height: 800px;
+    }
+
+    .emptyNotice {
+        text-align: center;
+    }
+}
+
+/* mobile screen */
+
+@media screen and (max-width: 600px) {
+    .MainContentsContainer {
+        max-width:50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 100%;
+        min-height:100%;
+    }
+    
+    .Contents{
+        max-width: 100%;
+        height: auto;
+        float: left;
+    }
+
+    .Contents-right {
+        max-width: 100%;
+        float: left;
+        height: auto;
+    }
+
+    #Contents-size {
+        max-width: 100%;
+        height: auto;
+    }
+
+}
+

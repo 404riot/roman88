@@ -1,0 +1,26 @@
+.tosContainer {
+    margin-bottom: 700px;
+    margin-top: 200px;
+}
+
+.tosTitle {
+    float : left;
+    text-align: center;
+    width: 10%;
+    height: 170px;
+    margin-top: 50px;
+}
+
+.tosContents {
+    overflow: scroll;
+    width: 85%;
+    height: 170px;
+    float: right;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding : 10px;
+}
+
+#tosContentsColor {
+    color : gray;
+}

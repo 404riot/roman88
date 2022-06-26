@@ -1,0 +1,117 @@
+@media screen and (max-width : 1800px) and (min-width : 1400px) {
+
+    .questionContainer {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 800px;
+    }
+
+    .innerContainer {
+        width: 90%;
+        height: 800px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .titleContainer{
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .titleInput {
+        font-size: 15px;
+        float: left;
+        width: 85%;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 3px;
+        border: 0;
+        border-bottom: 1px solid black;
+    }
+
+    .noticeAddButton{
+        float: right;
+        color: white;
+        cursor: pointer;
+        background-color: black;
+        border: 1px solid black;
+        margin-top: 10px;
+        margin-right: 2%;
+        width: 130px;
+        height: 30px;
+    }
+
+    .contentsContainer{
+        width: 100%;
+        margin-top: 25px;
+        height: 400px;
+    }
+
+    .contentsInput{
+        margin-top: 10px;
+        height: 300px;
+        width: 95%;
+        resize: none;
+
+    }
+
+}
+
+@media screen and (max-width : 1920px) and (min-width : 1800px) {
+
+    .questionContainer {
+        width: 50%;
+        margin-left: 25%;
+        margin-right: 25%;
+        height: 800px;
+    }
+
+    .innerContainer {
+        width: 90%;
+        height: 800px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .titleContainer{
+        margin-top: 10px;
+        height: 40px;
+    }
+
+    .titleInput {
+        font-size: 15px;
+        float: left;
+        width: 500px;
+        margin-top: 20px;
+        margin-left: 20px;
+        padding: 3px;
+        border: 0;
+        border-bottom: 1px solid black;
+    }
+
+    .noticeAddButton{
+        float: right;
+        color: white;
+        cursor: pointer;
+        background-color: black;
+        border: 1px solid black;
+        margin-top: 10px;
+        width: 130px;
+        height: 30px;
+    }
+
+    .contentsContainer{
+        margin-top: 30px;
+        height: 500px;
+    }
+
+    .contentsInput{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        resize: none;
+
+    }
+
+}

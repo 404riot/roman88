@@ -1,0 +1,128 @@
+
+
+.BuyContainer {
+    width: 70%;
+    height: 800px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+
+.checker span {
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.checker {
+    display :inline-block;
+    position: relative;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  
+  .checkInput {
+    position: absolute;
+    height: 0;
+    width: 0;
+    opacity: 0;
+  }
+  
+  .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    transition: 0.2s;
+  }
+  
+  .checkmark::after {
+    content: "";
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    height: 60%;
+    width: 25%;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    opacity: 0;
+    transition: 0.2s;
+  }
+  
+  input:checked ~ .checkmark {
+    background: rgb(0, 0, 0);
+  }
+  
+  input:checked ~ .checkmark::after {
+    opacity: 1;
+  }
+
+  .cartTable {
+    width: 100%;
+    height: 200px;
+  }
+
+  #productInfoInCart {
+    width: 600px;
+  }
+
+  #productPriceInCart {
+    width: 200px;
+  }
+
+  #productPcsInCart {
+    width: 200px;
+  }
+
+  #productDeliveryInCart {
+    width: 300px;
+  }
+
+  #paymentInCart {
+    width: 400px;
+  }
+
+  #buyThumbnail {
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 15px;
+  }
+
+  #thumbnailText {
+    text-align : left;
+  }
+
+  #tableText {
+    text-align: center;
+  }
+
+  #tableDeliveryText {
+    text-align: center;
+    color : gray;
+  }
+
+  .paymentContainer {
+    background-color: black;
+    width: 120px;
+    height: 40px;
+    text-align: center;
+    float : right;
+    margin-top: 10px;
+  }
+
+  #naverPayBtn {
+    color: white;
+    margin-top: 5px;
+  }
+
+  #paymentPrice {
+    margin-right: 20px;
+    float : right;
+  }
+

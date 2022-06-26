@@ -1,0 +1,572 @@
+@media screen and (max-width : 1800px) and (min-width : 1400px) {
+
+  .wrapper h2 {
+      margin-bottom: 50px;
+    }
+
+    .group {
+      position: relative;
+      margin-left: 35%;
+      width: 30%;
+      height: 1000px;
+      background-color: white;
+    }
+
+    .nameField {
+      position: relative;
+      margin-top: 50px;
+    }
+
+    .idField {
+      position: relative;
+      margin-top: 120px;
+    }
+
+    .overlapCheckField {
+      float : right;
+      margin-top: 10px;
+    }
+
+    .pwField {
+      position: relative;
+      margin-top: 190px;
+    }
+
+    .pwCheckField {
+      position: relative;
+      margin-top: 260px;
+    }
+
+    .addressField {
+      margin-top: 320px;
+      width: 100%;
+      height: 200px;
+    }
+
+    .phoneNumberField {
+      position: relative;
+      margin-top: -30px;
+    }
+
+    .addressSearch {
+      float: right;
+      margin-right: 15px;
+      margin-top: -30px;
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    .sendCertButton {
+      float: left;
+      margin-top: 50px;
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    .postCode {
+      margin-top : 10px;
+      padding : 10px;
+      border : none;
+      border-bottom: 1px solid black;
+      width: 10%;
+    }
+
+    .addr{
+      border : none;
+      margin-left: 10px;
+      padding : 10px;
+      border-bottom: 1px solid black;
+      width: 79%;
+    }
+
+    .addrInput {
+      border : none;
+      border-bottom: 1px solid black;
+      margin-top: 20px;
+      padding : 10px;
+      width: 95%;
+    }
+
+    .popupContainer {
+      margin-top: 450px;
+      margin-left: 400px;
+    }
+
+    .emailField {
+      position: relative;
+      margin-top: 70px;
+    }
+
+    .certNumberField {
+      position: relative;
+      margin-left: 100px;
+      margin-top: 40px;
+    }
+
+    .emailInputField {
+      margin-top: 70px;
+      margin-left: 210px;
+    }
+
+    .emailInput {
+      width : 100px;
+      border : none;
+      border-bottom: 1px solid black;
+      padding : 10px;
+    }
+
+    .selectField {
+      margin-left: 390px;
+      margin-top: -35px;
+    }
+
+    .emailSelector {
+      border: 1px solid black;
+      padding : 5px
+    }
+
+
+    .joinBtnContainer {
+      margin-left: 425px;
+      margin-top: 40px;
+    }
+
+    .joinButton {
+      border : 1px solid black;
+      background-color: black;
+      width : 70px;
+      height: 35px;
+      color : white;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .target__label {
+      display: inline-block;
+      left: 10px;
+      position: absolute;
+      top: -50%;
+      transform: translateY(50%);
+      transition: 200ms ease-in;
+      width: 10%;
+      white-space: nowrap;
+      font-size: 13px;
+    }
+    
+    .target__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 95%;
+    }
+    
+    .target__input:focus + label {
+      top: -30px;
+    }
+    
+    .target__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .name__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 95%;
+    }
+    
+    .name__input:focus + label {
+      top: -30px;
+    }
+    
+    .name__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .id__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 75%;
+    }
+    
+    .id__input:focus + label {
+      top: -30px;
+    }
+    
+    .id__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .overlapCheckBtn {
+      border: 1px solid black;
+      background-color: white;
+      color : black;
+      width: 80px;
+      height: 25px;
+    }
+
+
+    .pw__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 95%;
+    }
+    
+    .pw__input:focus + label {
+      top: -30px;
+    }
+    
+    .pw__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .email__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 35%;
+    }
+    
+    .email__input:focus + label {
+      top: -30px;
+    }
+    
+    .email__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .cert__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 65%;
+    }
+    
+    .cert__input:focus + label {
+      top: -30px;
+    }
+    
+    .cert__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .address__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 95%;
+    }
+
+    .address__input:focus + label {
+      top: -100px;
+    }
+    
+    .address__input-active:not(:focus) + label {
+      top: -100px;
+      
+    }
+
+}
+  
+
+@media screen and (max-width : 1920px) and (min-width : 1800px) {
+
+  .wrapper h2 {
+      margin-bottom: 50px;
+    }
+
+    .group {
+      position: relative;
+      margin-left: 35%;
+      width: 30%;
+      height: 1000px;
+      background-color: white;
+    }
+
+    .nameField {
+      position: relative;
+      margin-top: 50px;
+    }
+
+    .idField {
+      position: relative;
+      margin-top: 120px;
+    }
+
+    .overlapCheckField {
+      float : right;
+      margin-right: 10px;
+      margin-top: 10px;
+    }
+
+    .pwField {
+      position: relative;
+      margin-top: 190px;
+    }
+
+    .pwCheckField {
+      position: relative;
+      margin-top: 260px;
+    }
+
+    .addressField {
+      margin-top: 320px;
+      width: 100%;
+      height: 200px;
+    }
+
+    .phoneNumberField {
+      position: relative;
+      margin-top: -30px;
+    }
+
+    .addressSearch {
+      float: right;
+      margin-right: 15px;
+      margin-top: -30px;
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    .postCode {
+      margin-top : 10px;
+      padding : 10px;
+      border : none;
+      border-bottom: 1px solid black;
+      width: 10%;
+    }
+
+    .addr{
+      border : none;
+      margin-left: 10px;
+      padding : 10px;
+      border-bottom: 1px solid black;
+      width: 79%;
+    }
+
+    .addrInput {
+      border : none;
+      border-bottom: 1px solid black;
+      margin-top: 20px;
+      padding : 10px;
+      width: 95%;
+    }
+
+    .popupContainer {
+      margin-top: 450px;
+      margin-left: 400px;
+    }
+
+    .emailField {
+      position: relative;
+      margin-top: 70px;
+    }
+
+    .emailInputField {
+      margin-top: 70px;
+      margin-left: 230px;
+    }
+
+    .emailInput {
+      width : 150px;
+      border : none;
+      border-bottom: 1px solid black;
+      padding : 10px;
+    }
+
+    .selectField {
+      margin-left: 460px;
+      margin-top: -35px;
+    }
+
+    .emailSelector {
+      border: 1px solid black;
+      padding : 5px
+    }
+
+    .joinBtnContainer {
+      margin-left: 490px;
+      margin-top: 30px;
+    }
+
+    .joinButton {
+      border : 1px solid black;
+      font-weight: bold;
+      background-color: black;
+      width : 70px;
+      height: 30px;
+      color : white;
+      cursor: pointer;
+      font-size: 15px;
+    }
+
+    .target__label {
+      display: inline-block;
+      left: 10px;
+      position: absolute;
+      top: -50%;
+      transform: translateY(50%);
+      transition: 200ms ease-in;
+      width: 10%;
+      white-space: nowrap;
+      font-size: 13px;
+    }
+    
+    .target__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 95%;
+    }
+    
+    .target__input:focus + label {
+      top: -30px;
+    }
+    
+    .target__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .name__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 95%;
+    }
+    
+    .name__input:focus + label {
+      top: -30px;
+    }
+    
+    .name__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .id__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 75%;
+    }
+    
+    .id__input:focus + label {
+      top: -30px;
+    }
+    
+    .id__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .overlapCheckBtn {
+      border: 1px solid black;
+      background-color: white;
+      color : black;
+      width: 90px;
+      height: 25px;
+    }
+
+
+    .pw__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 95%;
+    }
+    
+    .pw__input:focus + label {
+      top: -30px;
+    }
+    
+    .pw__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .email__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 35%;
+    }
+    
+    .email__input:focus + label {
+      top: -30px;
+    }
+    
+    .email__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+
+    .address__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 95%;
+    }
+
+    .address__input:focus + label {
+      top: -100px;
+    }
+    
+    .address__input-active:not(:focus) + label {
+      top: -100px;
+      
+    }
+
+    .sendCertButton {
+      float: left;
+      margin-top: 50px;
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    .certNumberField {
+      position: relative;
+      margin-left: 120px;
+      margin-top: 40px;
+    }
+
+    .cert__input {
+      border: none;
+      border-bottom: 1px solid #444857;
+      padding: 10px;
+      position: absolute;
+      width: 65%;
+    }
+    
+    .cert__input:focus + label {
+      top: -30px;
+    }
+    
+    .cert__input-active:not(:focus) + label {
+      top: -30px;
+      
+    }
+}
+  
+  

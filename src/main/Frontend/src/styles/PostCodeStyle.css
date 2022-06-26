@@ -1,0 +1,43 @@
+@media screen and (max-width : 1920px) and (min-width : 1800px) {
+
+    .postCodeStyle {
+        position: absolute;
+        top: 5%;
+        width: 100%;
+        height: 700px;
+        margin-left : -70%;
+        z-index: 4;
+    }
+
+    .postCode_btn {
+        border : 1px solid black;
+        background-color : white;
+        margin-left : 180px;
+        margin-top : -870px;
+        display : block;
+        position : absolute; 
+        z-index : 5;
+    }
+
+}
+
+@media screen and (max-width : 1800px) and (min-width : 1400px) {
+    .postCodeStyle {
+        position: absolute;
+        top: 5%;
+        width: 100%;
+        height: 700px;
+        margin-left : -80%;
+        z-index: 4;
+    }
+
+    .postCode_btn {
+        border : 1px solid black;
+        background-color : white;
+        margin-left : 120px;
+        margin-top : -870px;
+        display : block;
+        position : absolute; 
+        z-index : 5;
+    }
+}

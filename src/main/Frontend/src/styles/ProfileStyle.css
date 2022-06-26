@@ -1,0 +1,417 @@
+@media screen and (max-width : 1800px) and (min-width : 1400px) {
+
+    .profileContainer {
+        margin-top: 50px;
+        margin-left: 35%;
+        width: 30%;
+        height: 800px;
+        background-color: white;
+    }
+
+    .profileInfoColummContainer{
+        float: left;
+        width: 35%;
+        
+    }
+
+    .profileInfoValueContainer {
+        float: left;
+        width: 63%;
+    }
+
+    #profileInfoContainersText {
+        margin-left: 10px;
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    #profileInfoContainersText_textArea{
+        margin-top: 20px;
+        margin-left: 10px;
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    #profileInfoContainersText_underTextArea{
+        margin-top: 32px;
+        margin-left: 10px;
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    .infoValuesInput{
+        margin-top: 13px;
+        border: none;
+        border-bottom: 1px solid #444857;
+        padding: 7px;
+        width: 90%; 
+        
+    }
+
+    .infoValuesInputArea{
+        margin-top: 13px;
+        border: none;
+        border-bottom: 1px solid #444857;
+        padding: 7px;
+        width: 90%; 
+        resize: none;
+        height: 35px;
+    }
+
+    .buttonContainer{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 100px;
+        margin-top: 360px;
+    }
+
+    .cartButton{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: black;
+        width: 90px;
+        height: 32px;
+        color : white;
+        text-align: center;
+        margin-right: 15px;
+        float: right;
+        cursor: pointer;
+    }
+
+    .modifyButton{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 90px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }
+
+    .historyButton{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: black;
+        width: 200px;
+        height: 32px;
+        color : white;
+        text-align: center;
+        margin-right: 10px;
+        float: right;
+        cursor: pointer;
+    }
+
+    #cartButtonText{
+        margin-top: 8px;
+    }
+
+    #modifyButtonText{
+        margin-top: 6px;
+    }
+
+    #historyButtonText{
+        margin-top: 8px;
+    }
+
+    .managersContainer {
+
+    }
+
+    .membersButton {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 100px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }
+
+    #membersButtonText{
+        margin-top: 6px;
+    }
+
+    .noticeButton {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 100px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }
+
+    #noticeButtonText{
+        margin-top: 6px;
+    }
+
+    .contactButton{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 100px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }
+
+    #contactButtonText{
+        margin-top: 6px;
+    }
+
+    .popUpButton{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 100px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }   
+
+    #popUpButtonText{
+        margin-top: 6px;
+    }
+}
+
+/* if using table */
+/* .profileTable{
+    display:flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    overflow-x: auto;
+    overflow-y: hidden;
+}
+
+#pTable{
+    display:block
+} */
+
+@media screen and (max-width : 1920px) and (min-width : 1800px) {
+    .profileContainer {
+        margin-top: 50px;
+        margin-left: 35%;
+        width: 30%;
+        height: 800px;
+        background-color: white;
+    }
+
+    .profileInfoColummContainer{
+        float: left;
+        width: 35%;
+        
+    }
+
+    .profileInfoValueContainer {
+        float: left;
+        width: 63%;
+    }
+
+    #profileInfoContainersText {
+        margin-left: 10px;
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    #profileInfoContainersText_textArea{
+        margin-top: 20px;
+        margin-left: 10px;
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    #profileInfoContainersText_underTextArea{
+        margin-top: 32px;
+        margin-left: 10px;
+        padding: 6px;
+        font-size: 13px;
+    }
+
+    .infoValuesInput{
+        margin-top: 13px;
+        border: none;
+        border-bottom: 1px solid #444857;
+        padding: 7px;
+        width: 90%; 
+        
+    }
+
+    .infoValuesInputArea{
+        margin-top: 13px;
+        border: none;
+        border-bottom: 1px solid #444857;
+        padding: 7px;
+        width: 90%; 
+        resize: none;
+        height: 35px;
+    }
+
+    .buttonContainer{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+        height: 100px;
+        margin-top: 360px;
+    }
+
+    .cartButton{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: black;
+        width: 100px;
+        height: 32px;
+        color : white;
+        text-align: center;
+        margin-right: 15px;
+        float: right;
+        cursor: pointer;
+    }
+
+    .modifyButton{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 100px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }
+
+    .historyButton{
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: black;
+        width: 235px;
+        height: 32px;
+        color : white;
+        text-align: center;
+        margin-right: 10px;
+        float: right;
+        cursor: pointer;
+    }
+
+    #cartButtonText{
+        margin-top: 8px;
+    }
+
+    #modifyButtonText{
+        margin-top: 6px;
+    }
+
+    #historyButtonText{
+        margin-top: 8px;
+    }
+
+    .managersContainer {
+
+    }
+
+    .membersButton {
+        margin-left: 10px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 120px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }
+
+    #membersButtonText{
+        margin-top: 6px;
+    }
+
+    .noticeButton {
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 120px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }
+
+    #noticeButtonText{
+        margin-top: 6px;
+    }
+
+    .contactButton{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 120px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }
+
+    #contactButtonText{
+        margin-top: 6px;
+    }
+
+    .popUpButton{
+        margin-left: 20px;
+        margin-top: 10px;
+        font-size: 14px;
+        font-weight: bold;
+        background-color: white;
+        width: 120px;
+        height: 29px;
+        color : black;
+        border: 1px solid black;
+        text-align: center;
+        float: left;
+        cursor: pointer;
+    }   
+
+    #popUpButtonText{
+        margin-top: 6px;
+    }
+}

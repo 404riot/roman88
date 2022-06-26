@@ -1,0 +1,320 @@
+/* Title Logo ------------------------------------------------- */
+
+
+
+.selectContainer {
+    z-index: 1;
+    position: relative;
+    max-width: 100%;
+    height: auto;
+}
+
+.selector {
+    z-index: 1;
+    position: fixed;
+    margin-left: 45%;
+    max-width: 100%;
+    height: auto;
+    float: left;
+}
+
+
+#title {
+    margin-top: -1%;
+    max-width: 100%;
+    font-weight: inherit;
+}
+
+#dressName {
+    max-width: 100%;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: -10px;
+}
+
+#price {
+    max-width: 100%;
+    margin-top: -5px;
+}
+
+.selectorContainer {
+    float: left;
+    margin-top: -10px;
+}
+
+.selectorMenu {
+    margin-top: -25px;
+}
+
+.colorText {
+    float: left;
+    width: 95px;
+}
+
+.pscText {
+    float: left;
+    width: 80px;
+    text-align: center;
+}
+
+.sizeText {
+    float: left;
+    width: 80px;
+    text-align: right;
+}
+
+#total {
+    display: inline;
+}
+
+#totalPrice {
+    display: inline;
+    margin-left: 170px;
+}
+
+#buyButton {
+    margin-left: 10px;
+    float: left;
+}
+
+#buyImg {
+    width: 50px;
+    height: 30px;
+    margin-top: 7px;
+    margin-left: 5px;
+    float: left;
+}
+
+#cartContainer {
+    margin-left: 10px;
+}
+
+#cartButton {
+    margin-left: 10px;
+    float: left;
+}
+
+#cartImg {
+    width: 40px;
+    height: 25px;
+    margin-top: 7px;
+    margin-left: 5px;
+    float: left;
+}
+
+
+#bar1 {
+    max-width: 100%;
+    background-color: black;
+    height: 1px;
+    border: 0px;
+}
+
+#bar2 {
+    margin-top: 30px;
+    max-width: 100%;
+    background-color: black;
+    height: 1px;
+    border: 0px;
+}
+
+#bar3 {
+    margin-top: 10px;
+    max-width: 100%;
+    background-color: black;
+    height: 1px;
+    border: 0px;
+}
+
+
+/* ColorSelector ------------------------------------------------- */
+.colorSelectorContainer {
+    margin-top: 20px;
+}
+
+#colorTitle {
+    float: left;
+    margin-top: -1px;
+}
+
+
+/* Counter ------------------------------------------------- */
+.counterContainer {
+    margin-top: 30px;
+}
+
+#counterTitle {
+    float: left;
+    margin-top: 0px;
+}
+
+#Counter-minus {
+    margin-left: 28px;
+    cursor: pointer;
+}
+
+#Counter-plus {
+    cursor: pointer;
+}
+
+#psc {
+    float: left;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    margin-top: 2px;
+}
+
+
+/* SizeSelector ------------------------------------------------- */
+.sizeSelectorContainer {
+    margin-top: 90px;
+}
+
+#sizeTitle {
+    float: left;
+    margin-top: 0px;
+}
+
+.sizeSelector {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+input[type="radio"] {
+    display: none;
+}
+input[type="radio"]:checked + label span {
+    transform: scale(1.25);
+}
+input[type="radio"]:checked + label .black {
+    border: 1px solid #000000;
+}
+input[type="radio"]:checked + label .white {
+    border: 1px solid #000000;
+}
+
+
+/* color selector ------------------------------------------------- */
+
+.colorCheck{
+    display :inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.colorCheck:hover span {
+    border: 1px solid black;
+    transform: scale(1.25);
+    cursor: pointer;
+}
+.colorCheck span {
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+.colorCheck span.black {
+    background: #000000;
+}
+.colorCheck span.white {
+    background: #ffffff;
+}
+.colorCheck span.red {
+    background: #ff0000;
+}
+
+/* size selector ------------------------------------------------- */
+
+.sizeCheck{
+    display :inline-block;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+}
+.sizeCheck:hover span {
+    border: 1px solid black;
+    transform: scale(1.25);
+    cursor: pointer;
+}
+.sizeCheck span {
+    border: 1px solid black;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.2s ease-in-out;
+}
+
+.sizeCheck span.small {
+    width: 25px;
+    height: 20px;
+    background: #ffffff;
+    text-align: center;
+}
+input[type="radio"]:checked + .sizeCheck .small {
+    border: 0.1px solid #000000;
+    background-color: #000000;
+    color: white;
+}
+
+
+.sizeCheck span.medium {
+    width: 25px;
+    height: 20px;
+    background: #ffffff;
+    text-align: center;
+}
+input[type="radio"]:checked + .sizeCheck .medium {
+    border: 0.1px solid #000000;
+    background-color: #000000;
+    color: white;
+}
+
+
+.sizeCheck span.large {
+    width: 25px;
+    height: 20px;
+    background: #ffffff;
+    text-align: center;
+}
+input[type="radio"]:checked + .sizeCheck .large {
+    border: 0.1px solid #000000;
+    background-color: #000000;
+    color: white;
+}
+
+
+.sizeCheck span.xlarge {
+    width: 25px;
+    height: 20px;
+    background: #ffffff;
+    text-align: center;
+}
+input[type="radio"]:checked + .sizeCheck .xlarge {
+    border: 0.1px solid #000000;
+    background-color: #000000;
+    color: white;
+}
+
+.sizeCheck span.xxlarge {
+    width: 30px;
+    height: 20px;
+    background: #ffffff;
+    text-align: center;
+}
+input[type="radio"]:checked + .sizeCheck .xxlarge {
+    border: 0.1px solid #000000;
+    background-color: #000000;
+    color: white;
+}
+
+
+
+
+
+/* slider --------------------------- */

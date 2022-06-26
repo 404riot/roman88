@@ -1,0 +1,29 @@
+.footer {
+  background: rgb(0, 0, 0);
+  color:rgb(255, 255, 255);
+  height: 250px;
+  width: 100%;
+  position: absolute;
+}
+
+.footerForLogo {
+    color : white;
+    margin-left: 15%;
+    margin-top: 40px;
+}
+
+#footerForLogo-text {
+    display: inline;
+}
+
+.footer-left {
+    margin-left: 15%;
+    float : left;
+    margin-top: 20px;
+}
+
+.footer-right {
+    margin-right: 15%;
+    float : right;
+    text-align: right;
+}

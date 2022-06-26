@@ -1,0 +1,41 @@
+.membersManageContainer {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    height: 1000px;
+}
+
+.membersTable{
+    height: 10px;
+    text-align: center;
+}
+
+#nameRow {
+    width: 100px;
+    height: 10px;
+}
+
+#idRow {
+    width: 100px;
+}
+
+#addressRow {
+    width: 550px;
+}
+
+#postCodeRow {
+    width: 70px;
+}
+
+#phoneNumberRow {
+    width: 120px;
+}
+
+#emailRow {
+    width: 200px;
+}
+
+#accountRow{
+    height: 10px;
+    text-align: center;
+}
