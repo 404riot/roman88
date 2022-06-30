@@ -27,7 +27,7 @@ tech
   - 권한이 필요한 모든 요청에 대해서는 cookie의 access token을 헤더로 요청.
 
 사용자 정보
-- 최초 로그인 시 user data를 가져와 React의 useState로 관리.  - A
+- 최초 로그인 시 user data를 가져와 React의 useState로 관리.
 - 유저 정보의 수정은
   - setState로 변경된 내용 사용자에게 표시 및 jqpl update
     - db update후 사용자 정보를 다시 가져오지 않음.
